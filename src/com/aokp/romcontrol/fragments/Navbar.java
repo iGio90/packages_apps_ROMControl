@@ -74,6 +74,7 @@ public class Navbar extends AOKPPreferenceFragment implements
     private static final String PREF_NAVBAR_QTY = "navbar_qty";
     private static final String PREF_NAVRING_AMOUNT = "pref_navring_amount";
     private static final String ENABLE_NAVRING_LONG = "enable_navring_long";
+    private static final String NAVIGATION_BAR_WIDGETS = "navigation_bar_widgets";
 
     public static final int REQUEST_PICK_CUSTOM_ICON = 200;
     public static final int REQUEST_PICK_LANDSCAPE_ICON = 201;
@@ -92,6 +93,7 @@ public class Navbar extends AOKPPreferenceFragment implements
     ListPreference mNavRingButtonQty;
     SeekBarPreference mButtonAlpha;
     CheckBoxPreference mEnableNavringLong;
+    Preference mConfigureWidgets;
 
     private int mPendingIconIndex = -1;
     private NavBarCustomAction mPendingNavBarCustomAction = null;
@@ -164,6 +166,8 @@ public class Navbar extends AOKPPreferenceFragment implements
         mButtonAlpha.setInitValue((int) (defaultAlpha * 100));
         mButtonAlpha.setOnPreferenceChangeListener(this);
 
+        mConfigureWidgets = findPreference(NAVIGATION_BAR_WIDGETS);
+
         refreshSettings();
         setHasOptionsMenu(true);
         updateGlowTimesSummary();
@@ -227,6 +231,13 @@ public class Navbar extends AOKPPreferenceFragment implements
             FragmentTransaction ft = getFragmentManager().beginTransaction();
             NavRingTargets fragment = new NavRingTargets();
             ft.addToBackStack("config_nav_ring");
+            ft.replace(this.getId(), fragment);
+            ft.commit();
+            return true;
+        } else if (preference == mConfigureWidgets) {
+            FragmentTransaction ft = getFragmentManager().beginTransaction();
+            WidgetConfigurationFragment fragment = new WidgetConfigurationFragment();
+            ft.addToBackStack("config_widgets");
             ft.replace(this.getId(), fragment);
             ft.commit();
             return true;
