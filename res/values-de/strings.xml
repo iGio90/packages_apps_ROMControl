@@ -538,4 +538,6 @@
     <string name="direction_west">W</string>
     <string name="direction_north_west">NW</string>
 
+    <string name="wifi_save">bewaren</string>
+
 </resources>
