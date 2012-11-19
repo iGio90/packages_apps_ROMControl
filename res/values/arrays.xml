@@ -73,7 +73,6 @@
         <item>2G</item>
         <item>TORCH</item>
         <item>SYNC</item>
-        <item>SWAGGER</item>
         <item>TETHER</item>
     </string-array>
     <string-array name="available_toggles_values" translatable="false">
@@ -88,7 +87,6 @@
         <item>2G</item>
         <item>Torch</item>
         <item>Sync</item>
-        <item>Swagger</item>
 	<item>Tether</item>
     </string-array>
 
