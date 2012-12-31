@@ -23,7 +23,7 @@
         android:icon="@drawable/ic_rom_control_lockscreens"
         android:summary="@string/header_summary_lockscreens" />
 
-     <header
+    <header
         android:id="@+id/nav_bar"
         android:fragment="com.aokp.romcontrol.fragments.Navbar"
         android:title="@string/nav_bar"
@@ -54,7 +54,7 @@
         android:fragment="com.aokp.romcontrol.fragments.StatusBarSignal"
         android:icon="@drawable/ic_rom_control_signal"
         android:summary="@string/header_summary_signal" />
-     
+
     <header
         android:id="@+id/system"
         android:title="@string/header_system" />

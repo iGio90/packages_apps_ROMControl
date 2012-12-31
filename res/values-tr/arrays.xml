@@ -40,7 +40,7 @@
         <item>1</item>
         <item>2</item>
     </string-array>
-	
+
     <!-- toggle style -->
     <string-array name="toggle_style_entries">
         <item>Sadece Simge</item>
@@ -58,7 +58,7 @@
         <item>0</item>
         <item>1</item>
     </string-array>
-	
+
     <!-- Generic toggle oberlay. Should be set per device in overlay -->
     <string-array name="available_toggles_entries">
         <item>ROTATE</item>
@@ -96,7 +96,7 @@
         <item>@string/toggle_swagger</item>
         <item>@string/toggle_fast_charge</item>
     </array>
-	
+
     <!-- Brightness slider -->
     <string-array name="brightness_location_entries">
         <item>En üstte</item>
@@ -109,7 +109,7 @@
         <item>2</item>
         <item>3</item>
     </string-array>
-		
+
     <!-- Battery styles -->
     <string-array name="battery_icon_entries">
         <item>Sadece Simge</item>
@@ -127,7 +127,7 @@
         <item>4</item>
         <item>5</item>
     </string-array>
-	
+
     <!-- NavBar -->
     <string-array name="pref_navigation_menu_entries">
         <item>Sağ</item>
@@ -135,14 +135,14 @@
         <item>İki Kenar</item>
         <item>Kaldır</item>
     </string-array>
-	
+
     <!-- right is the default, easier to keep 0 as first index -->
     <string-array name="pref_navigation_menu_values" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
         <item>4</item>
-    </string-array>	
+    </string-array>
     <string-array name="pref_navigation_menu_display_entries">
         <item>Standart ICS davranışı</item>
         <item>Görünmez ikonları daima göster</item>
@@ -239,7 +239,7 @@
         <item>3</item>
         <item>4</item>
     </string-array>
-	
+
     <!-- LED Values -->
     <string-array name="led_entries">
         <item>.2 saniye</item>
@@ -260,7 +260,7 @@
         <item>9 saniye</item>
         <item>10 saniye</item>
     </string-array>
-	
+
     <!-- values must be in milliseconds!~@@#E!@ -->
     <integer-array name="led_values" translatable="false">
         <item>200</item>
@@ -356,7 +356,7 @@
         <item>4 dakika</item>
         <item>5 dakika</item>
     </string-array>
-	
+
     <!-- values must be in milliseconds!~@@#E!@ -->
     <string-array name="flip_screenoff_values" translatable="false">
         <item>0</item>
@@ -389,7 +389,7 @@
         <item>4 saat</item>
         <item>6 saat</item>
         <item>8 saat</item>
-    </string-array>	
+    </string-array>
     <string-array name="weather_interval_values" translatable="false">
         <item>0</item>
         <item>1</item>
