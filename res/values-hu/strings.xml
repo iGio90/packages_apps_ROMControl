@@ -168,6 +168,10 @@
     <string name="show_overflow_summary">Display the 3-dot overflow menu button within apps</string>
     <string name="show_overflow_toast_enable">The menu overflow button may not be visible until apps are restarted</string>
     <string name="show_overflow_toast_disable">The menu overflow button may not be hidden until apps are restarted</string>
+    <string name="notification_show_wifi_ssid_title">Wif hálózat név mutatása</string>
+    <string name="notification_show_wifi_ssid_summary">Az aktuálisan kapcsolódott Wifi hálózat nevét kirja</string>
+    <string name="brightness_slider_title">Értesitési sáv fényerő csúszka</string>
+    <string name="brightness_slider_summary">Engedélyezi a csúsztatással való fényerő állítást az értesítési sáv tetején. Autó fényerő állításnál nem történik semmi.</string>
 
     <!-- LCD Density -->
     <string name="lcd_density_title">LCD febontás</string>
@@ -222,6 +226,10 @@
     <string name="toggle_btn_disabled_color_title">Indikátor szinének tiltása</string>
     <string name="toggle_btn_background_title">Kapcsolók hátterének áttetszősége</string>
     <string name="toggle_text_color_title">Kapcsoló szöveg szín</string>
+    <string name="toggle_enable_fasttoggle_title">Gyors kapcsoló engedélyezése</string>
+    <string name="toggle_enable_fasttoggle_summary">Alapértelmezett viselkedés felülbírálása</string>
+    <string name="toggle_choose_fasttoggle_side_title">Gyors kapcsoló oldal választás</string>
+    <string name="toggle_choose_fasttoggle_side_summary">Válaszd ki melyik oldalon legyen</string>
 
     <!-- Statusbar | Clock -->
     <string name="clock_title_enable">Óra stílus</string>
@@ -235,8 +243,7 @@
     <string name="today">Naptár mai nap</string>
     <string name="event">Naptár új esemény</string>
     <string name="voiceassist">Hang utasítások</string>
-    <string name="title_date_longclick">Dátum hosszú éritése</string>
-    <string name="title_date_shortclick">Dátum rövid érintése</string>
+    <string name="title_clock_doubleclick">Óra dupla érintése</string>
     <string name="title_clock_longclick">Óra rövid érintése</string>
     <string name="title_clock_shortclick">Óra hosszú érintése</string>
 
@@ -336,11 +343,23 @@
     <string name="navbar_widgets_shiftLeft">Balra</string>
     <string name="navbar_widgets_shiftRight">Jobbra</string>
     <string name="navbar_widgets_delete">Modul törlése</string>
+    <string name="navigation_bar_menu_arrow_keys_title">Menü nyíl gombok</string>
+    <string name="navigation_bar_menu_arrow_keys_summary">Mutatja a nyíl gombokat az értesítési sávon gépelés közben</string>
+    <string name="navigation_bar_alpha_title">Állapotsáv és navigációs sáv áttetszősége</string>
 
     <!-- Nav Ring Targets -->
     <string name="navbar_ring_cat">Navigációs sáv gyűrű esemény</string>
     <string name="interface_softkey_settings">Softkey Beállítások</string>
-    <string name="interface_softkeys_pref_default_title">Nincs Aktivitás választva</string>
+    <string name="interface_softkeys_pref_default_1_title">1. elem rövid nyomása</string>
+    <string name="interface_softkeys_pref_long_1_title">1. elem hosszú nyomása</string>
+    <string name="interface_softkeys_pref_default_2_title">2. elem rövid nyomása</string>
+    <string name="interface_softkeys_pref_long_2_title">2. elem hosszú nyomása</string>
+    <string name="interface_softkeys_pref_default_3_title">3. elem rövid nyomása</string>
+    <string name="interface_softkeys_pref_long_3_title">3. elem hosszú nyomása</string>
+    <string name="interface_softkeys_pref_default_4_title">4. elem rövid nyomása</string>
+    <string name="interface_softkeys_pref_long_4_title">4. elem hosszú nyomása</string>
+    <string name="interface_softkeys_pref_default_5_title">5. elem rövid nyomása</string>
+    <string name="interface_softkeys_pref_long_5_title">5. elem hosszú nyomása</string>
     <string name="interface_softkeys_pref_default_summary">Éríntsd meg a beállitás ikont, hogy a hosszú nyomásra mi történjen</string>
     <string name="interface_softkeys_activity_dialog_title">Aktivitás választás</string>
     <string name="interface_softkeys_reboot_title">Újraindítás Menü</string>
@@ -361,6 +380,7 @@
     <string name="interface_navring_assist_title">Google Now</string>
     <string name="interface_navring">Gyűrű elemek</string>
     <string name="navbar_ring">Egyéni gyűrű elemek</string>
+    <string name="navring_enable_long">Gyűrű hosszan nyomásának engedélyezése</string>
 
 
     <!-- LED -->
@@ -413,6 +433,7 @@
     <string name="title_phone_flip_mode">Telefon hívás némítás</string>
 
     <!-- Lockscreen -->
+    <string name="lock_widgets_short">Zárképernyő Modulok</string>
     <string name="lockscreen_security_cat">Biztonság</string>
     <string name="lockscreen_layout_cat">Elrendezés</string>
     <string name="lockscreen_music_cat">Zene</string>
@@ -424,8 +445,14 @@
     <string name="lockscreen_menu_unlock_summary">Menü gombbal baló feloldás</string>
     <string name="lockscreen_auto_rotate_title">Zárképernyő forgatásának engedélyezése</string>
     <string name="lockscreen_auto_rotate_summary">Zárképernyő forog a készülék tájolása szerint. Ez független a kijelző Auto-forgatásástól.</string>
+    <string name="lockscreen_all_widgets_title">Összes modul engedélyezve</string>
+    <string name="lockscreen_all_widgets_summary">Figyelmeztetés**Néhány modul nem használható zárképernyőn. A modul készítői és az Aokp nem felelősek a működésükért. Válaszd felelőséggel.</string>
+    <string name="lockscreen_unlimited_widgets_title">Végtelen modul engedélyezve</string>
+    <string name="lockscreen_unlimited_widgets_summary">Figyelmeztetés**Sok modul hozzáadása akadást okozhat.</string>
     <string name="lockscreen_battery_title">Zárképernyő akksi százalék</string>
     <string name="lockscreen_battery_summary">Mutatja a akksi százalékot a zárképernyőn</string>
+    <string name="lockscreen_hide_initial_page_hints_title">Kezdőoldalak elrejtése</string>
+    <string name="lockscreen_hide_initial_page_hints_summary">Bekapcsolt képernyőnél a jobb és bal oldali modulok elrejtése.</string>
     <string name="volume_rocker_wake_title">Hangerő feloldás</string>
     <string name="volume_rocker_wake_summary">Képernyő felélesztése a hangerő gombokra</string>
     <string name="volume_music_controls_title">Hangerő zene vezérlés</string>
