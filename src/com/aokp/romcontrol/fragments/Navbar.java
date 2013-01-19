@@ -187,7 +187,7 @@ public class Navbar extends AOKPPreferenceFragment implements
                 .getContentResolver(), Settings.System.NAVIGATION_BAR_BUTTON_ALPHA,
                 0.6f);
         mButtonAlpha = (SeekBarPreference) findPreference("button_transparency");
-        mButtonAlpha.setInitValue((int) (defaultButtonAlpha * 100));
+        mButtonAlpha.setInitValue((int) (defaultButtonAlpha * 0));
         mButtonAlpha.setOnPreferenceChangeListener(this);
 
         // don't allow devices that must use a navigation bar to disable it
