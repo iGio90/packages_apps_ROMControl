@@ -8,7 +8,7 @@
     <string name="cancel">Annuler</string>
     <string name="ok">OK</string>
     <string name="menu_main_activity_change_locale">Vide!</string>
-    <string name="header_statusbar">Statusbar</string>
+    <string name="header_statusbar">Barre de notification</string>
     <string name="header_navbar">Barre de Navigation </string>
     <string name="toggles_layout">Activateur</string>
     <string name="general_ui">Interface Utilisateur</string>
@@ -16,30 +16,30 @@
     <string name="battery">Batterie</string>
     <string name="signal">Signal</string>
     <string name="nav_bar">Barre de Navigation</string>
-    <string name="power_menu">Menu marche/arret</string>
+    <string name="power_menu">Menu marche/arrêt</string>
     <string name="led_options">LED</string>
-    <string name="header_system">Systeme</string>
+    <string name="header_system">Systéme</string>
     <string name="sound">Son</string>
     <string name="lockscreen_options">Ecran de verrouillage</string>
-    <string name="weather">Meteo</string>
+    <string name="weather">Météo</string>
     <string name="tools">Outils</string>
     <string name="performance">Performance</string>
 
     <!-- Activity titles defined in AndroidManifest.xml -->
     <string name="title_about">A propos d'AOKP</string>
     <string name="title_ui">Interface Utilisateur</string>
-    <string name="title_statusbar_clock">Statusbar Clock</string>
-    <string name="title_statusbar_toggles">Statusbar Toggles</string>
-    <string name="title_statusbar_battery">Statusbar Battery</string>
+    <string name="title_statusbar_clock">Barre de notification Horloge</string>
+    <string name="title_statusbar_toggles">Barre de notfication Activateur</string>
+    <string name="title_statusbar_battery">Barre de notification Batterie</string>
     <string name="title_navbar">Barre de Navigation</string>
-    <string name="title_power_menu">Menu marche/arret</string>
-    <string name="title_led">Controle du LED</string>
-    <string name="title_lockscreens">Options d'ecran de verrouillage</string>
-    <string name="title_lockscreens_targets">Cible d'ecran de verrouillage</string>
+    <string name="title_power_menu">Menu marche/arrêt</string>
+    <string name="title_led">Contrôle du LED</string>
+    <string name="title_lockscreens">Options d'écran de verrouillage</string>
+    <string name="title_lockscreens_targets">Cible d'écran de verrouillage</string>
     <string name="title_navring">Cercle de navigation</string>
-    <string name="title_sound">Paraetres son</string>
-    <string name="title_weather">Parametres meteo</string>
-    <string name="title_performance">Parametres Performances</string>
+    <string name="title_sound">Paramétres son</string>
+    <string name="title_weather">Paramétres météo</string>
+    <string name="title_performance">Paramétres Performances</string>
     <string name="title_clipboard_share">Partager dans le presse-papier</string>
 
     <!-- Header Summaries -->
@@ -58,43 +58,43 @@
     <string name="header_summary_vibrations">@null</string>
 
     <!-- Menu Strings -->
-    <string name="menu_nav_bar_reset">RaZ Barre de Nivagation</string>
-    <string name="menu_user_interface_reset">RaZ Fond d'ecran notifications</string>
-    <string name="menu_lockscreens_reset">RaZ Fond d'ecran ecran de verrouillage</string>
+    <string name="menu_nav_bar_reset">RàZ Barre de Navigation</string>
+    <string name="menu_user_interface_reset">RàZ Fond d'écran notifications</string>
+    <string name="menu_lockscreens_reset">RàZ Fond d'écran pour l'écran de verrouillage</string>
 
     <!-- General Strings -->
-    <string name="advanced_settings">Parametres avances</string>
+    <string name="advanced_settings">Paramétres avancés</string>
     <string name="misc_short">Etc...</string>
-    <string name="custom_app_icon_successfully">"'s applique !"</string>
+    <string name="custom_app_icon_successfully">"'s appliqué !"</string>
 
     <!-- Power Menu -->
-    <string name="title_show_power_saver">Show power saver</string>
-    <string name="title_show_screenshot">Capture d'ecran</string>
+    <string name="title_show_power_saver">Montrer la sauvegarde de la batterie</string>
+    <string name="title_show_screenshot">Capture d'écran</string>
     <string name="title_show_torch_toggle">Torche</string>
     <string name="title_show_airplane_toggle">Mode Avion</string>
     <string name="title_show_navbar_hide">Barre de Navigation</string>
 
     <!-- Power Saving -->
-    <string name="title_pref_powersaving_pref_mode">Enable power saver</string>
+    <string name="title_pref_powersaving_pref_mode">Activer la sauvegarde de la batterie</string>
     <string name="summary_pref_powersaving_pref_mode">@null</string>
 
-    <string name="title_pref_powersaving_data_screen_off">Screen off data action</string>
-    <string name="summary_pref_powersaving_data_screen_off">Que faire avec la data quand l'ecran est eteint</string>
+    <string name="title_pref_powersaving_data_screen_off">Utilisation de la DATA quand l'écran est éteint</string>
+    <string name="summary_pref_powersaving_data_screen_off">Que faire avec la DATA quand l'écran est éteint</string>
 
-    <string name="title_pref_powersaving_data_screen_off_delay">Data action delay</string>
-    <string name="summary_pref_powersaving_data_screen_off_delay">How long to wait before applying data action?</string>
+    <string name="title_pref_powersaving_data_screen_off_delay">Délai de l'action</string>
+    <string name="summary_pref_powersaving_data_screen_off_delay">Combien de temps avant l'action ?</string>
 
     <!-- Shortcut picker -->
-    <string name="use_custom_app_title">Utilise une application perso</string>
+    <string name="use_custom_app_title">Utiliser une application perso</string>
     <string name="use_custom_app_summary">Use custom application instead of the recent applications dialog</string>
-    <string name="select_custom_app_title">Selectionne une application perso</string>
+    <string name="select_custom_app_title">Sélectionner une application perso</string>
     <string name="group_applications">Applications</string>
 
     <!-- About -->
-    <string name="devs">The Crew</string>
+    <string name="devs">L'équipe</string>
     <string name="aokp">Android Open Kang Project</string>
     <string name="aokp_website_title">AOKP Site Web</string>
-    <string name="aokp_website_summary">www.aokp.co - Toutes les nouvelles versions d'AOKP ici.</string>
+    <string name="aokp_website_summary">www.aokp.co - Toutes les nouvelles versions d'AOKP sont ici.</string>
     <string name="aokp_source_title">AOKP Source</string>
     <string name="aokp_source_summary">AOKP est open source. Vous pouvez jeter un coup d'oeil aux dernieres sources sur github.com/aokp</string>
     <string name="aokp_review_title">AOKP Code Review</string>
@@ -120,49 +120,49 @@
     <string name="donate_birdman">https://support.woundedwarriorproject.org/Default.aspx?tsid=66&amp;campaignSource=WEBSITE</string>
 
     <!-- General UI -->
-    <string name="bootani_cat">Animation de demarrage</string>
+    <string name="bootani_cat">Animation de démarrage</string>
     <string name="navbar_cat">Barre de Navigation</string>
     <string name="notification_cat">Notifications</string>
     <string name="tabletUI_cat">UI Tablette</string>
     <string name="enable_volume_options">Activer le panel du Volume</string>
     <string name="status_bar_notif_count_title">Montrer le nombre de notification</string>
-    <string name="status_bar_notif_count_summary">Montrer le nombre de notification en attente dans la bar de status</string>
-    <string name="vibrate_notif_expand_title">Vibrer en glissant</string>
-    <string name="vibrate_notif_expand_summary">Vibrer en aggrandissant la notification (Redemarrage de l'UI requis)</string>
-    <string name="disable_bootanimation_title">Desactiver l'animation de demarrage</string>
-    <string name="custom_bootanimation_title">Animation de demarrage perso</string>
-    <string name="custom_bootanimation_summary">Selectionner le bootanimation.zip de votre carte SD. L'animation de demarrage precedent sera sauvegarde dans /system/media.</string>
-    <string name="install_file_manager_error">Pas d'application trouve pour choisir le fichier .zip. Installer un Gestionnaire de Fichier.</string>
-    <string name="notification_wallpaper_title">Choisir un fond d'ecran pour les notifications</string>
-    <string name="notification_wallpaper_summary">Vous pouvez retirer le fond d'ecran du menu dans cette fenetre</string>
-    <string name="notif_wallpaper_alpha_title">Transparence du fond d'ecran pour les notifications</string>
-    <string name="alpha_dialog_title">Choisissez la valeur de transparence</string>
-    <string name="custom_carrier_label_title">Oeprateur personnalise</string>
+    <string name="status_bar_notif_count_summary">Montrer le nombre de notification en attente dans la barre de Notification</string>
+    <string name="vibrate_notif_expand_title">Vibrer lors du glissement</string>
+    <string name="vibrate_notif_expand_summary">Vibrer lors de l'aggrandissement de la notification (Redémarrage de l'UI requis)</string>
+    <string name="disable_bootanimation_title">Désactiver l'animation de démarrage</string>
+    <string name="custom_bootanimation_title">Animation de démarrage perso</string>
+    <string name="custom_bootanimation_summary">Séléctionner le bootanimation.zip sur votre carte SD. L'animation de démarrage précédent sera sauvegardé dans /system/media.</string>
+    <string name="install_file_manager_error">Pas d'application trouvé pour choisir le fichier .zip. Installer un Gestionnaire de Fichier.</string>
+    <string name="notification_wallpaper_title">Choisir un fond d'écran pour les notifications</string>
+    <string name="notification_wallpaper_summary">Vous pouvez retirer le fond d'écran du menu dans cette fenêtre</string>
+    <string name="notif_wallpaper_alpha_title">Transparence du fond d'écran pour les notifications</string>
+    <string name="alpha_dialog_title">Choisisser la valeur de transparence</string>
+    <string name="custom_carrier_label_title">Opérateur personnalisé</string>
     <string name="custom_carrier_label_explain">Entrer un nouveau nom. Laisser vide pour revenir au nom initial.</string>
-    <string name="custom_carrier_label_notset">Operateur telephonique personnalise non applique</string>
+    <string name="custom_carrier_label_notset">Opérateur personnalisé non-appliqué</string>
     <string name="ime_switcher_title">Montrer le mode de saisie</string>
     <string name="ime_switcher_summary">Dans la barre de notification quans vous tapez</string>
     <string name="lefty_mode_title">Mode Gaucher</string>
-    <string name="lefty_mode_summary">Echanger les boutons de barre de navigation (redemarrage de l'UI requis)</string>
-    <string name="rotate_180_title">Autoriser la rotation e 180 degrees</string>
-    <string name="rotate_180_summary">Vous permet d'utiliser votre vers le bas!</string>
+    <string name="lefty_mode_summary">Echanger les boutons de barre de navigation (redémarrage de l'UI requis)</string>
+    <string name="rotate_180_title">Autoriser la rotation à 180 degrees</string>
+    <string name="rotate_180_summary">Vous permet d'utiliser téléphone votre vers le bas!</string>
     <string name="recent_kill_all">Activer le bouton "kill-all"</string>
-    <string name="recent_kill_all_summary">Montrer le bouton tuer toutes les apps dans la fenetre des apps recentes</string>
-    <string name="ram_bar">Recents RAM Bar</string>
-    <string name="ram_bar_summary">Shows RAM usage in the recents menu</string>
+    <string name="recent_kill_all_summary">Montre le bouton "kill-all" tuant les apps dans la fênetre des apps récentes</string>
+    <string name="ram_bar">Barre de RAM</string>
+    <string name="ram_bar_summary">Montre l'utilisation de la RAM dans la fênetre des apps récentes</string>
     <string name="kill_app_longpress_back">Enfoncer le bouton "retour" pour "tuer"</string>
     <string name="kill_app_longpress_back_summary">Enfoncer le bouton retour "tuera" l'activite en cours !</string>
-    <string name="tablet_ui">Forcer l'UI tablette</string>
-    <string name="tablet_ui_summary"> Cela echangera votre telephone en mode tablette (redemarrage requis)</string>
+    <string name="tablet_ui">Forcer l'IU tablette</string>
+    <string name="tablet_ui_summary"> Cela changera votre téléphone en mode tablette (redémarrage requis)</string>
     <string name="hide_extras">Cacher les extras</string>
     <string name="hide_extras_summary">Hide some systembar stuff i.e. the compat. mode button(requires UI restart)</string>
-    <string name="bootanimation_preview">Apercu de l'animation de demarrage</string>
+    <string name="bootanimation_preview">Apercu de l'animation de démarrage</string>
     <string name="apply">Appliquer</string>
-    <string name="creating_preview">Creation de l'apercu...</string>
+    <string name="creating_preview">Creation de l'aperçu...</string>
     <string name="error_reading_zip_file">Erreur lors de la lecture du fichier .zip</string>
-    <string name="error_creating_preview">Erreur lors de la creation de l'avant-premiere</string>
+    <string name="error_creating_preview">Erreur lors de la création de l'aperçu</string>
     <string name="multipane_ui">Activer le mode Double</string>
-    <string name="multipane_ui_summary">Cela activera/desactivera la vue Double Dual (redemarrage requis)</string>
+    <string name="multipane_ui_summary">Cela activera/désactivera la vue "Double Dual" (redémarrage requis)</string>
     <string name="alt_resolver">Use Alt Default App Grid</string>
     <string name="alt_resolver_summary">Use Alternate (GB style) Default App Picker</string>
     <string name="show_overflow_title">Show Menu UI Overflow</string>
@@ -174,46 +174,46 @@
 
 
     <!-- LCD Density -->
-    <string name="lcd_density_title">Densite LCD</string>
+    <string name="lcd_density_title">Densité LCD</string>
     <string name="lcd_density_summary">Inconnu</string>
-    <string name="current_lcd_density">"Densite LCD applique: "</string>
-    <string name="lcd_density_wizard">Densite LCD Facile</string>
-    <string name="follow_through_title">Follow through!</string>
-    <string name="follow_through_summary">Make sure you follow the steps one-by-one and complete each one before proceeding to the next.</string>
+    <string name="current_lcd_density">"Densité LCD appliqué : "</string>
+    <string name="lcd_density_wizard">Installation de la densité LCD</string>
+    <string name="follow_through_title">Suivez moi!</string>
+    <string name="follow_through_summary">Suivez ces étapes unes-par-uns avant de compléter l'étape suivante.</string>
     <string name="stock_density_title">1. Changer la densité du LCD par la valeur stock</string>
-    <string name="stock_density_summary">Les Tablettes et les vieux téléphones utilise 160. La plupart des téléphones utilise 240. Le Galaxy Nexus utilise par défaut 320.</string>
-    <string name="stock_density_changed_summary">"Densite mis a: "</string>
-    <string name="reboot_title">2. Redemarrage!</string>
-    <string name="reboot_summary">Revenez ici apres le redemarrage pour continuer !</string>
+    <string name="stock_density_summary">Les Tablettes et les vieux téléphones utilise la valeur de 160. La plupart des téléphones utilise la valeur de 240. Le Galaxy Nexus utilise par défaut la valeur 320.</string>
+    <string name="stock_density_changed_summary">"Densité mis à : "</string>
+    <string name="reboot_title">2. Redémarrage !</string>
+    <string name="reboot_summary">Revenez ici aprés le redémarrage pour continuer !</string>
     <string name="clear_market_data_title">3. Nettoyage des données du market</string>
-    <string name="clear_market_data_cleared">Donnees du Market nettoye</string>
-    <string name="clear_market_data_donot_cleared">"Les donnees du market ne peuvent pas être nettoye, faites les vous même!"</string>
+    <string name="clear_market_data_cleared">Données du Market nettoyés</string>
+    <string name="clear_market_data_donot_cleared">"Les données du market ne peuvent pas être nettoyés, faites les vous même!"</string>
     <string name="dpi">DPI</string>
-    <string name="open_market_title">4. Ouvrer le market et choissisez J'accepte</string>
+    <string name="open_market_title">4. Ouvrez le market et choissisez J'accepte</string>
     <string name="open_market_summary">Taper sur retour quand c'est fait pour retourner ici.</string>
-    <string name="open_market_summary_could_not_open">" Impossible d'ouvrir le market! Vérifier qu'il soit bien installe! Si vous etes sur qu'il soit installe, ouvrez le vous meme a partir de votre launcher."</string>
-    <string name="custom_density_title">5. Changer la densite comme vous le voulez!</string>
-    <string name="custom_density_summary"> Si jamais vous avez des problemes de compatibiliter avec le market, retournez ici et repeter l'operation.</string>
+    <string name="open_market_summary_could_not_open">" Impossible d'ouvrir le market! Vérifier qu'il soit bien installé ! Si vous êtes sur qu'il est installé, ouvrez le vous même à partir de votre launcher."</string>
+    <string name="custom_density_title">5. Changer la densité comme vous le voulez!</string>
+    <string name="custom_density_summary"> Si jamais vous avez des problémes de compatibilité avec le market, retournez ici et répeter l'operation.</string>
     <string name="custom_density_summary_invalid">"DENSITE INVALIDE!"</string>
     <string name="custom_density">Perso</string>
-    <string name="set_custom_density_title">Mettre la densite perso</string>
+    <string name="set_custom_density_title">Mettre la densité perso</string>
     <string name="set_custom_density_set">Mettre</string>
     <string name="custom_density_dialog_title">"ATTENTION!"</string>
     <string name="custom_density_dialog_summary">"Changer votre densité peut faire planter les apps. Si vous avez une incompatibilité avec les apps du market, retournez ici et recommencer l'operation depuis le debut."</string>
-    <string name="custom_density_dialog_button_got">C'est bon!</string>
-    <string name="custom_density_dialog_button_reboot">Redemarrage</string>
+    <string name="custom_density_dialog_button_got">C'est bon !</string>
+    <string name="custom_density_dialog_button_reboot">Redémarrage</string>
 
     <!-- Statusbar | Toggles -->
     <string name="toggle_style_title">Style de l'activateur</string>
-    <string name="toggle_style_summary">Choix entre des icones et du texte pour vos activateurs.</string>
+    <string name="toggle_style_summary">Choix entre des icônes et du texte pour vos activateurs.</string>
     <string name="toggles_layout_title">Toggle Layout</string>
     <string name="enabled_toggles_title">Activer les activateurs</string>
-    <string name="enabled_toggles_summary">Choisir les activateurs a afficher</string>
+    <string name="enabled_toggles_summary">Choisir les activateurs à afficher</string>
     <string name="toggles_display_dialog">Choisissez quel activateur vous voulez utiliser</string>
     <string name="toggles_display_close">Fermer</string>
     <string name="toggles_order_title">Ordre des activateurs</string>
     <string name="toggles_order_summary">Choisissez dans quel ordre vous voulez afficher les activateurs</string>
-    <string name="title_settings_behavior">Utiliser les parametres par defaut</string>
+    <string name="title_settings_behavior">Utiliser les paramétres par defaut</string>
     <string name="summary_settings_behavior_default">Appuie court pour les paramétres, Appuie long pour activer</string>
     <string name="summary_settings_behavior_reverse">Appuie court pour activer, Appuie long pour les paramétres</string>
     <string name="title_toggles_autohide">Cacher automatiquement les activateurs</string>
