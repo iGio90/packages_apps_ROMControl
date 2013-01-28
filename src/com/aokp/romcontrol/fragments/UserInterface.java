@@ -21,6 +21,7 @@ import android.os.Handler;
 import android.os.Message;
 import android.preference.CheckBoxPreference;
 import android.preference.Preference;
+import android.preference.PreferenceGroup;
 import android.preference.PreferenceScreen;
 import android.provider.MediaStore;
 import android.provider.Settings;
@@ -76,6 +77,7 @@ public class UserInterface extends AOKPPreferenceFragment {
     private static final String PREF_RECENT_KILL_ALL = "recent_kill_all";
     private static final String PREF_RAM_USAGE_BAR = "ram_usage_bar";
     private static final String PREF_STATUSBAR_BRIGHTNESS = "statusbar_brightness_slider";
+    private static final String PREF_WAKEUP_WHEN_PLUGGED_UNPLUGGED = "wakeup_when_plugged_unplugged";
 
     private static final int REQUEST_PICK_WALLPAPER = 201;
     private static final int REQUEST_PICK_CUSTOM_ICON = 202;
@@ -101,6 +103,7 @@ public class UserInterface extends AOKPPreferenceFragment {
     CheckBoxPreference mRamBar;
     CheckBoxPreference mStatusbarSliderPreference;
     AlertDialog mCustomBootAnimationDialog;
+    CheckBoxPreference mWakeUpWhenPluggedOrUnplugged;
 
     private AnimationDrawable mAnimationPart1;
     private AnimationDrawable mAnimationPart2;
@@ -167,6 +170,16 @@ public class UserInterface extends AOKPPreferenceFragment {
         mRamBar = (CheckBoxPreference) findPreference(PREF_RAM_USAGE_BAR);
         mRamBar.setChecked(Settings.System.getBoolean(getActivity  ().getContentResolver(),
                 Settings.System.RAM_USAGE_BAR, false));
+
+        mWakeUpWhenPluggedOrUnplugged = (CheckBoxPreference) findPreference(PREF_WAKEUP_WHEN_PLUGGED_UNPLUGGED);
+        mWakeUpWhenPluggedOrUnplugged.setChecked(Settings.System.getBoolean(mContext.getContentResolver(),
+                        Settings.System.WAKEUP_WHEN_PLUGGED_UNPLUGGED, true));
+
+        // hide option if device is already set to never wake up
+        if(!mContext.getResources().getBoolean(
+                com.android.internal.R.bool.config_unplugTurnsOnScreen)) {
+            ((PreferenceGroup) findPreference("misc")).removePreference(mWakeUpWhenPluggedOrUnplugged);
+        }
 
         setHasOptionsMenu(true);
         resetBootAnimation();
@@ -372,6 +385,11 @@ public class UserInterface extends AOKPPreferenceFragment {
             boolean checked = ((CheckBoxPreference)preference).isChecked();
             Settings.System.putBoolean(getActivity().getContentResolver(),
                     Settings.System.RAM_USAGE_BAR, checked ? true : false);
+            return true;
+        } else if (preference == mWakeUpWhenPluggedOrUnplugged) {
+            Settings.System.putBoolean(getActivity().getContentResolver(),
+                    Settings.System.WAKEUP_WHEN_PLUGGED_UNPLUGGED,
+                    ((CheckBoxPreference) preference).isChecked());
             return true;
         }
 
