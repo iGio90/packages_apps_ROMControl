@@ -43,8 +43,6 @@
     <string name="navigation_bar_tint_title">Farbe der Navigationsleiste</string>
     <string name="navigation_bar_glow_tint_title">Navigationsleiste Leuchtfarbe</string>
     <string name="navigation_bar_glow_tint_summary">Wenn ein Knopf gedrückt wird, leuchtet dieser auf. Hier kann die Farbe des Aufleuchtens eingestellt werden</string>
-    <string name="navigation_bar_height_title">Höhe der Navigationsleiste</string>
-    <string name="navigation_bar_width_title">Breite der Navigationsleiste</string>
 
     <string name="title_pref_navigation_menu_display">Sichtbarkeit des Menüs</string>
     <string name="summary_pref_navigation_menu_display">Wie und wann sollen die Menü-Buttons erscheinen?</string>
