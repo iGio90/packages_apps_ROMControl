@@ -126,7 +126,6 @@
     <string name="navbar_cat">Értesítési sáv</string>
     <string name="notification_cat">Értesítés</string>
     <string name="tabletUI_cat">Tábla mód</string>
-    <string name="enable_volume_options">Hang panel engedélyezése</string>
     <string name="status_bar_notif_count_title">Értesítésí számláló</string>
     <string name="status_bar_notif_count_summary">Megjelenití az értesítések számát a navigációs sávon</string>
     <string name="vibrate_notif_expand_title">Rezgés nyitásra</string>

@@ -79,7 +79,6 @@
     <string name="aokp_irc_summary">\#teamkang @ irc.freenode.net</string>
     <string name="about_aokp">AOKP 정보</string>
     <string name="about_aokp_summary">@null</string>
-    <string name="enable_volume_options">볼륨 패널 활성화</string>
     <string name="status_bar_notif_count_title">알림 개수 표시</string>
     <string name="status_bar_notif_count_summary">상태바에서 알림 개수를 표시</string>
     <string name="disable_bootanimation_title">부팅 애니메이션 비활성화</string>

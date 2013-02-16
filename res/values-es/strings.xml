@@ -122,7 +122,6 @@
     <string name="bootani_cat">Boot Animation</string>
     <string name="navbar_cat">NavBar</string>
     <string name="notification_cat">Notification</string>
-    <string name="enable_volume_options">Activar panel de volumen</string>
     <string name="status_bar_notif_count_title">Mostrar contador de notificaciones</string>
     <string name="status_bar_notif_count_summary">Muestra el número de notificaciones pendientes en la barra de estado</string>
     <string name="vibrate_notif_expand_title">Vibrar al expandir</string>

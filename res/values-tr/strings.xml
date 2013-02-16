@@ -93,7 +93,6 @@
     <string name="donate_birdman">https://support.woundedwarriorproject.org/Default.aspx?tsid=66&amp;campaignSource=WEBSITE</string>
 	    	
 	<!-- General UI -->
-    <string name="enable_volume_options">Ses Panelini Etkinleştir</string>
     <string name="status_bar_notif_count_title">Bildirim Sayısını Göster</string>
     <string name="status_bar_notif_count_summary">Durum çubuğunda bekleyen bildirimlerin sayısını göster</string>
 	<string name="disable_bootanimation_title">Yükleme animasyonu devre dışı</string>

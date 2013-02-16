@@ -90,9 +90,6 @@
     <string name="custom_carrier_label_warning">Eigener Anbieter-Text ist zur Zeit nicht gesetzt. Sobald dieser gesetzt wurde, lässt es sich ohne einen "data wipe" nicht mehr rückgangig machen</string>
     <string name="longpress_to_kill_title">Zurück-Taste zum Beenden</string>
     <string name="longpress_to_kill_summary">Das Halten der Zurück-Taste beendet die aktuelle App.</string>
-
-    <string name="enable_volume_options">Aktiviere Volumen Optionen</string>
-
     <string name="rotate_180_title">180° Rotation erlauben</string>
     <string name="rotate_180_summary">Erlaube deinem Gerät eine 180° Rotation!</string>
 

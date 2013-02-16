@@ -121,7 +121,6 @@
     <string name="bootani_cat">Boot Animacja</string>
     <string name="navbar_cat">NavBar</string>
     <string name="notification_cat">Powiadomienia</string>
-    <string name="enable_volume_options">Aktywuj panel głośności</string>
     <string name="status_bar_notif_count_title">Pokaż licznik powiadomień</string>
     <string name="status_bar_notif_count_summary">Pokaż liczbę oczekujących powiadomień</string>
     <string name="disable_bootanimation_title">Wyłącz boot animację</string>

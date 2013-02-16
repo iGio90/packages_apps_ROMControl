@@ -106,7 +106,6 @@
     <string name="navbar_cat">导航栏</string>
     <string name="notification_cat">通知栏</string>
     <string name="tabletUI_cat">平板界面</string>
-    <string name="enable_volume_options">启用音量面板</string>
     <string name="status_bar_notif_count_title">显示通知数量</string>
     <string name="status_bar_notif_count_summary">在状态栏显示未查看的通知数量</string>
     <string name="vibrate_notif_expand_title">展开振动</string>

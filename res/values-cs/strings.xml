@@ -111,7 +111,6 @@
   <string name="navbar_cat">Navigační lišta</string>
   <string name="notification_cat">Notifikace</string>
   <string name="tabletUI_cat">Tabletové UI</string>
-  <string name="enable_volume_options">Zapnout volby hlasitosti</string>
   <string name="status_bar_notif_count_title">Zobrazit počet upozornění</string>
   <string name="status_bar_notif_count_summary">Zobrazit počet čekajících upozornění ve stavové liště</string>
   <string name="vibrate_notif_expand_title">Vibrovat při vytažení</string>
