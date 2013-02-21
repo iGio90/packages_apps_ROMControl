@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView
+                android:title="@string/enable_navbar"
+                android:summary="@string/enable_navbar_summary" />
         <ListPreference
                 android:entries="@array/pref_navigation_menu_entries"
                 android:entryValues="@array/pref_navigation_menu_values"
