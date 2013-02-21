@@ -7,6 +7,13 @@
             android:summary="@string/enable_navbar_summary"
             android:selectable="false" />
 
+        <PreferenceCategory
+                android:key="navbar_general"
+                android:title="@string/navbar_general">
+
+        </PreferenceCategory>
+
+
         <ListPreference
                 android:entries="@array/pref_navigation_menu_entries"
                 android:entryValues="@array/pref_navigation_menu_values"
