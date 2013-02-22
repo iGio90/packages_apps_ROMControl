@@ -885,7 +885,7 @@
     <string name="toggles_enable_haptic_feedback_title">Enable haptic feedback</string>
     <string name="toggles_enable_haptic_feedback_summary">Use haptic feedback when pressing toggles</string>
 
-    <string name="enable_navbar">How to enable Navbar:</string>
+    <string name="enable_navbar">How to enable Navbar</string>
     <string name="enable_navbar_summary">Since we have implement Paranoid Preferences we will pass to it this option. Open Paranoid Preferences and set the NavBar size in the Interface panel</string>
     <string name="navbar_general">General Navbar Options</string>
 </resources>
